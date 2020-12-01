@@ -1,0 +1,52 @@
+img {
+  margin: 0 0 0 15px;
+  height: 140px;
+  max-width: 100%;
+  float: left;
+}
+
+#navbar {
+  float: left;
+  height: 100px;
+  width: 80%;
+  border-radius: 5px;
+  margin: 15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  box-shadow: 1px 1px 10px 1px green;
+}
+
+div#navbar li {
+  float: left;
+  margin: 0 25px 0px 45px;
+  background-color: rgba(0, 128, 0, 0.036);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#navbar ul {
+  margin: -33.5px 0 0 600px;
+  list-style-type: none;
+}
+
+p#welcome {
+  margin: 27.5px 0 0 30px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.75em;
+  color: rgba(255, 0, 0, 0.94);
+  /* background-color: rgba(0, 128, 0, 0.036); */
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  box-shadow: 1px 1px 10px 1px rgb(255, 0, 0); */
+}
+
+#SP {
+  color: blue;
+}
+
+#video1 {
+  margin: 40px 0 0 100px;
+  height: 400px;
+  width: 50%;
+  border-radius: 10px;
+}
