@@ -9,12 +9,12 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div id="navbar" class="animate__animated animate__fadeInTopRight">
+      <div id="navbar">
         <p id="welcome">Welcome, to the start of a new chapter in your life...</p>
         <ul>
-          <li class="animate__animated animate__rollIn">Home</li>
+          <li>Home</li>
           <li id="SP" class="animate__animated animate__rollIn">The Success Plan</li>
-          <li class="animate__animated animate__rollIn">About Jason</li>
+          <li>About Jason</li>
         </ul>
       </div>
     );
