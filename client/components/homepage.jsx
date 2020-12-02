@@ -1,5 +1,6 @@
 const React = require('react');
 const Video1 = require('./video1.jsx');
+const LoginForm = require('./loginform.jsx');
 
 class Homepage extends React.Component {
   constructor() {
@@ -12,6 +13,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div id="Homepage">
+        < LoginForm />
         < Video1 />
       </div>
     );
