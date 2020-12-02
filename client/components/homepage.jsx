@@ -1,4 +1,5 @@
 const React = require('react');
+const Video1 = require('./video1.jsx');
 
 class Homepage extends React.Component {
   constructor() {
@@ -11,12 +12,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div id="Homepage">
-        <iframe id="video1" src='../../testClip.mp4'
-        frameborder='0'
-        allow='autoplay; encrypted-media'
-        allowfullscreen
-        title='test video'
-        />
+        < Video1 />
       </div>
     );
   }
