@@ -13,6 +13,7 @@ class Homepage extends React.Component {
   render() {
     return (
       <div id="Homepage">
+        <img src="../../public/watchVideo.jpg" alt="Watch This Video"></img>
         < LoginForm />
         < Video1 />
       </div>
