@@ -1,5 +1,6 @@
 body {
   background-color: beige;
+  max-width: 100%;
 }
 
 img {
@@ -22,14 +23,14 @@ img {
 
 div#navbar li {
   float: left;
-  margin: 0 12px 0px 37px;
+  margin: 0px 12px 0px 37px;
   background-color: rgba(0, 128, 0, 0.036);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 19px;
 }
 
 div#navbar ul {
-  margin: -33.5px 0 0 600px;
+  margin: -35px 0 0 600px;
   list-style-type: none;
 }
 
@@ -39,19 +40,65 @@ p#welcome {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.75em;
   color: rgb(0, 182, 0);
-  /* background-color: rgba(0, 128, 0, 0.036); */
-  /* background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  box-shadow: 1px 1px 10px 1px rgb(255, 0, 0); */
+  background-color: rgba(0, 128, 0, 0.036);
 }
 
 #SP {
-  color: rgb(19, 54, 255);
+  color: chartreuse;
 }
 
 #video1 {
-  margin: 40px 0 0 100px;
+  margin: 40px 0 0 350px;
   height: 400px;
   width: 50%;
   border-radius: 10px;
+  position: sticky;
+  top: 0;
 }
+
+#Homepage {
+  clear: left;
+  height: 800px;
+  max-height: 1600px;
+}
+
+#Footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(11, 2, 177) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%);
+  box-shadow: 1px 1px 10px 4px green;
+  position: fixed;
+  bottom: 0;
+  height: 0px;
+  width: 100%;
+  padding: 0px 0px 65px 600px;
+  border-radius: 4px;
+}
+
+div#Footer li {
+  float: left;
+  margin: 0px 50px 0px 80px;
+  background-color: rgba(0, 128, 0, 0.036);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+div#Footer li:hover, div#navbar li:hover {
+  color: blue;
+}
+
+div#Footer ul {
+  margin: 20px 200px 0px -650px;
+  list-style-type: none;
+}
+
+#copywright {
+  margin: 30px 0px 0px 580px;
+  font-size: 20px;
+  color: rgb(2, 173, 2);
+}
+
+li {
+  cursor: pointer;
+  color: white;
+}
+

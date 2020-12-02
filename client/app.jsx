@@ -3,6 +3,7 @@ const ReactDOM = require('react-dom');
 const Logo = require('./components/logo.jsx');
 const Navbar = require('./components/navbar.jsx');
 const Homepage = require('./components/homepage.jsx');
+const Footer = require('./components/footer.jsx');
 
 class App extends React.Component {
   constructor() {
@@ -19,8 +20,8 @@ class App extends React.Component {
     <div>
       < Logo />
       < Navbar />
-      <br/>
       {< this.state.currentPage />}
+      < Footer />
     </div>
     );
   }
