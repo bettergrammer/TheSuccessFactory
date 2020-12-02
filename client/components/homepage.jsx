@@ -1,6 +1,7 @@
 const React = require('react');
 const Video1 = require('./video1.jsx');
 const LoginForm = require('./loginform.jsx');
+const Testimonials = require('./testimonials.jsx');
 
 class Homepage extends React.Component {
   constructor() {
@@ -13,9 +14,10 @@ class Homepage extends React.Component {
   render() {
     return (
       <div id="Homepage">
-        <img src="../../public/watchVideo.jpg" alt="Watch This Video"></img>
+        <img id="watchVideo1" src="../../watchVideo.jpg" alt="Watch This Video"></img>
         < LoginForm />
         < Video1 />
+        < Testimonials />
       </div>
     );
   }
