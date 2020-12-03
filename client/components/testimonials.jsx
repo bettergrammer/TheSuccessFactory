@@ -3,7 +3,7 @@ const React = require('react');
 const Testimonials = () => {
   return (
     <div id="testimonials">
-      <h3>Testimonials</h3>
+      <h4>Testimonials</h4>
         <ul>
           <img src="../../KarenG.png" alt="Karen G. Testimonial" class="testimonialPic"></img>
           <li class="liTestimonial">
