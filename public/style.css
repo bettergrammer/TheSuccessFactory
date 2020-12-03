@@ -41,6 +41,7 @@ p#welcome {
   font-size: 1.75em;
   color: rgb(0, 182, 0);
   background-color: rgba(0, 128, 0, 0.036);
+  cursor: default;
 }
 
 #SP {
@@ -54,6 +55,7 @@ p#welcome {
   border-radius: 10px;
   position: sticky;
   top: 0;
+  box-shadow: 1px 1px 10px green;
 }
 
 #Homepage {
@@ -91,6 +93,13 @@ div#Footer ul {
   list-style-type: none;
 }
 
+div#testimonials ul {
+  margin: -30px 0px 60px -60px;
+  padding: 30px;
+  list-style-type: none;
+  width: 120%;
+}
+
 #copywright {
   margin: 30px 0px 0px 580px;
   font-size: 20px;
@@ -113,7 +122,7 @@ li {
   padding: 10px;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgb(3, 0, 55) 0%, rgba(13, 0, 255, 0.653) 65%, rgba(0, 227, 252, 0.502) 100%);
-  box-shadow: 1px 1px 7.5px 1px ;
+  box-shadow: 1px 1px 7.5px 1px green;
 }
 
 .form-title {
@@ -123,15 +132,15 @@ li {
 }
 
 label {
-  margin: 5px;
+  margin: 10px;
+  padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
-
 }
 
 input {
-  margin: 15px;
+  margin: 20px;
   height: 30px;
   width: 250px;
   border-radius: 4px;
@@ -140,23 +149,29 @@ input {
 
 .login-form-button {
   padding: 10px;
-  margin: 5px 0px 5px 15px;
+  margin: 5px 0px 0px 21px;
   background-color: white;
   border-radius: 5px;
   width: 40%;
   background-color: whitesmoke;
+  cursor: pointer;
 }
 
 .forgot-password {
-  margin: 10px 10px 10px 15px;
+  margin: 10px 10px 10px 21px;
   padding: 5px;
   height: 37.5px;
   border-radius: 4px;
   width: 85%;
   background-color: whitesmoke;
+  cursor: pointer;
 }
 
-.login-form-button.login-form-button:hover {
+.forgot-password:hover {
+  background-color: rgb(209, 208, 208);
+}
+
+.login-form-button:hover {
   background-color: rgb(209, 208, 208);
 }
 
@@ -175,15 +190,42 @@ input {
 #testimonials {
   background-color: teal;
   float: right;
-  margin: 5px 275px 0px 0px;
-  height: 500px;
+  margin: 5px 260px 0px 0px;
+  overflow-y: auto;
+  max-height: 600px;
   width: 300px;
   position: absolute;
-  bottom: 0px;
-  left: 1092px;
+  top: 135px;
+  left: 1090px;
   border-radius: 4px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10px;
   text-align: center;
   color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(11, 2, 177) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%);
+  box-shadow: 1px 1px 10px 1px green;
+}
+
+.liTestimonial {
+  font-family: fantasy;
+  color: white;
+  margin: 40px;
+  font-size: 1em;
+  clear: left;
+}
+
+.testimonialPic {
+  margin: 0px 0px 20px 130px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+#brandon {
+  margin-left: 115px;
+}
+
+h3 {
+  margin-bottom: 30px;
+  font-size: 1.5em;
 }

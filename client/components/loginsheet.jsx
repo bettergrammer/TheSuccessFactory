@@ -5,7 +5,7 @@ const LoginSheet = (props) => {
     <div id="loginsheet">
       <form>
             <h4 class="form-title">Login</h4>
-            <label>username:</label>
+            <label id="usernameLabel">username:</label>
             <input type="text" id="usernameInput"></input>
             <br/>
             <label>password:</label>
