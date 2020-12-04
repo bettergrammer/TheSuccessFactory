@@ -30,6 +30,7 @@ class LoginForm extends React.Component {
     return (
       <div id="loginform">
         {< this.state.currentForm handleSwitch={this.handleSwitch.bind(this)}/>}
+        <img src="../../watchVideo2.jpg" alt="Watch Video" id="watchVideo2"></img>
       </div>
     );
   }
