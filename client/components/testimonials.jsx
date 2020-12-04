@@ -11,7 +11,7 @@ const Testimonials = () => {
           </li>
           <img src="../../LisaT.png" alt="List T. Testimonial" class="testimonialPic"></img>
           <li class="liTestimonial">
-          "This is simply unbelievable! No matter where you go, The Success Plan is the coolest, most happening thing around! I like The Success Plan more and more each day because it makes my life a lot easier." - Lisa T.
+          "This is simply unbelievable! Jason is the coolest and the plan works! I like The Success Plan more and more each day because it makes my life a lot easier." - Lisa T.
           </li>
           <img src="../../BrandonQ.png" alt="Brandon Q. Testimonial" class="testimonialPic" id="brandon"></img>
           <li class="liTestimonial">
