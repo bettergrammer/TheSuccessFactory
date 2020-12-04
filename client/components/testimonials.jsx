@@ -18,6 +18,7 @@ const Testimonials = () => {
           "Thanks guys, keep up the good work! I would like to personally thank you for your outstanding product. I have gotten at least 50 times the value from The Success Plan." - Brandon Q.
           </li>
         </ul>
+        <img src="../../more.jpg" alt="More Testimonials" id="more"></img>
     </div>
   )
 }

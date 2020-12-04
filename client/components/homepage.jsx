@@ -2,6 +2,7 @@ const React = require('react');
 const Video1 = require('./video1.jsx');
 const LoginForm = require('./loginform.jsx');
 const Testimonials = require('./testimonials.jsx');
+const Logo = require('./logo.jsx');
 
 class Homepage extends React.Component {
   constructor() {
@@ -18,6 +19,7 @@ class Homepage extends React.Component {
         < LoginForm />
         < Video1 />
         < Testimonials />
+        <img id="guarantee" src="../../guarantee.png" alt="Money Back Guarantee"></img>
       </div>
     );
   }
