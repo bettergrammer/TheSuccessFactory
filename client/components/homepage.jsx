@@ -15,11 +15,11 @@ class Homepage extends React.Component {
   render() {
     return (
       <div id="Homepage">
-        <img id="watchVideo1" src="../../watchVideo.jpg" alt="Watch This Video"></img>
+        <img id="watchVideo1" src="../../images/watchVideo.jpg" alt="Watch This Video"></img>
         < LoginForm />
         < Video1 />
         < Testimonials />
-        <img id="guarantee" src="../../guarantee.png" alt="Money Back Guarantee"></img>
+        <img id="guarantee" src="../../images/guarantee.png" alt="Money Back Guarantee"></img>
       </div>
     );
   }
