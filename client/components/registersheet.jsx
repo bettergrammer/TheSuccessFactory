@@ -15,7 +15,7 @@ const RegisterSheet = ({handleSwitch}) => {
         <button class="registerButton" type="button" class="login-form-button" id="signupButton" onClick={handleSwitch}>
           Login
         </button>
-        <img id="addToCart2" src="../../buyNow2.jpg" alt="Add To Cart"></img>
+        <img id="addToCart2" src="../../images/buyNow2.jpg" alt="Add To Cart"></img>
       </form>
     </div>
   );

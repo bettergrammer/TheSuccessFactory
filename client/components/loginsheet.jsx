@@ -12,7 +12,7 @@ const LoginSheet = ({handleSwitch}) => {
         <button type="submit" class="login-form-button loginID">Login</button>
         <button type="button" class="login-form-button" id="signupButton" onClick={handleSwitch}>Sign Up!</button>
         <button type="button" class="forgot-password">Forgot Password?</button>
-        <img id="addToCart" src="../../addToCart.png" alt="Add To Cart"></img>
+        <img id="addToCart" src="../../images/addToCart.png" alt="Add To Cart"></img>
       </form>
     </div>
   );
