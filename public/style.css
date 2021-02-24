@@ -1,6 +1,7 @@
 body {
   background-color: beige;
-  max-width: 100%;
+  position: relative;
+  overflow-x: hidden;
 }
 
 img {
@@ -51,11 +52,11 @@ p#welcome {
 
 #video1 {
   margin: 40px 0 0 350px;
-  height: 400px;
+  height: 425px;
   width: 50%;
   border-radius: 10px;
   position: sticky;
-  top: 190px;
+  top: 57px;
   box-shadow: 1px 1px 10px green;
 }
 
@@ -69,11 +70,11 @@ p#welcome {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgb(11, 2, 177) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%);
   box-shadow: 1px 1px 10px 4px green;
-  position: fixed;
+  position: relative;
   bottom: 0;
   height: 0px;
   width: 100%;
-  padding: 0px 0px 60px 600px;
+  padding: 1px 0px 60px 600px;
   border-radius: 4px;
   text-shadow: 1px 1px 5px black;
   z-index: 3;
@@ -84,7 +85,7 @@ div#Footer li {
   margin: 0px 50px 0px 80px;
   background-color: rgba(0, 128, 0, 0.036);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 div#Footer li:hover, div#navbar li:hover {
@@ -188,13 +189,12 @@ input {
 }
 
 #watchVideo2 {
-  height: 18%;
-  width: 25%;
-  position: fixed;
-  top: 430px;
-  left: 272px;
-  margin: 90px 200px 5px -235px;
+  height: 120px;
+  width: 3000px;
+  position: sticky;
+  margin: 385px 0px 0px 50px;
   z-index: 4;
+  bottom: 90px;
 }
 
 #testimonials {
@@ -319,8 +319,8 @@ form#registerSheet {
 #guarantee {
   position: absolute;
   border-radius: 40px;
-  left: 29px;
-  top: 620px;
+  left: 20px;
+  top: 640px;
   height: 180px;
   z-index: 2;
   box-shadow: 1px 1px 10px green;
