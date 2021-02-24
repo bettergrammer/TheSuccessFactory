@@ -82,10 +82,10 @@ p#welcome {
 
 div#Footer li {
   float: left;
-  margin: 0px 50px 0px 80px;
+  margin: 1px 50px 0px 80px;
   background-color: rgba(0, 128, 0, 0.036);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 div#Footer li:hover, div#navbar li:hover {
@@ -105,8 +105,8 @@ div#testimonials ul {
 }
 
 #copywright {
-  margin: 30px 0px 0px 580px;
-  font-size: 20px;
+  margin: 32.5px 0px 0px 620px;
+  font-size: 16px;
   color: rgb(2, 173, 2);
 }
 
