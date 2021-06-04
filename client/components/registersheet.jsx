@@ -14,9 +14,9 @@ const RegisterSheet = ({handleSwitch}) => {
         <label class="register" id="registerUsernameLabel">username:</label>
         <input type="text" id="registerUsernameInput"></input>
         <label class="register" id="registerUsernameInput">password:</label>
-        <input type="text" id="passwordInput"></input>
+        <input type="text" id="registerPasswordInput"></input>
         <div class="registerButtonsContainer">
-          <button class="registerButton" type="button" class="login-form-button loginID">Sign Up!</button>
+          <button class="registerButton" type="button" class="login-form-button loginID">Submit</button>
           <button class="registerButton" type="button" class="login-form-button" id="signupButton" onClick={handleSwitch}>
             Login
           </button>
