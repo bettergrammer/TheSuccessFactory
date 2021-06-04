@@ -1,12 +1,12 @@
 const React = require('react');
 
-const Pagelinks = () => {
+const Pagelinks = (props) => {
   return (
     <div id="Pagelinks">
       <ul>
-        <li>Home</li>
-        <li id="SP">The Success Plan</li>
-        <li>About Jason</li>
+        <li onClick={props.handleLinkClick}>Home</li>
+        <li id="SP" onClick={props.handleLinkClick}>The Success Plan</li>
+        <li onClick={props.handleLinkClick}>About Jason</li>
       </ul>
     </div>
   );
