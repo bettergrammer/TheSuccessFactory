@@ -12,7 +12,6 @@ class LoginForm extends React.Component {
   }
 
   handleSwitch(e) {
-    console.log('sign up!');
     this.setState((prevState, props) => {
       if (prevState.currentForm === LoginSheet) {
         return {
