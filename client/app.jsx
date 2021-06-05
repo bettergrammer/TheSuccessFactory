@@ -32,7 +32,7 @@ class App extends React.Component {
 
   render() {
     return (
-    <div>
+    <div class="app-container">
       < Logo />
       < Navbar handleLinkClick={this.handleLinkClick}/>
       {< this.state.currentPage />}
